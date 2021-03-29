@@ -1,0 +1,30 @@
+#peaceful-pond {
+    background: url('../images/peacefulpond.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.score-counter {
+	position: absolute;
+	margin-left: 80%;
+}
+
+#egg-1 {
+    margin-left: 10%;
+}
+#egg-2 {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#egg-3 {
+    margin-left: 10%;
+    margin-top: 20%;
+}
+#egg-4 {
+    margin-left: 20%;
+}
+#egg-5 {
+    margin-left: 20%;
+    margin-top: 10%;
+}
