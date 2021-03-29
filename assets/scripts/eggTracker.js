@@ -7,7 +7,7 @@ $(function() {
 	$('body').on('click', '.egg.not-found', updateScore);
 
 	function updateScore() {
-		$this = $(this);
+		const $this = $(this);
 		$this.removeClass('not-found').addClass('found');
 		eggsFound += 1;
 		scoreCounterText.text(`Eggs Found: ${eggsFound}`)

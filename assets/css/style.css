@@ -75,7 +75,7 @@ a {
 .egg {
 	position: absolute;
 	cursor: pointer;
-	background-color: blue;
+	/*background-color: blue;*/
 	width: 50px;
 	height: 50px;
 }
@@ -90,4 +90,8 @@ a {
 	text-align: center;
 	color:indianred;
 	text-shadow: 3px 3px 5px #dddddd;
+}
+
+.featherlight.egg-popup .featherlight-content {
+	background: transparent;
 }
